@@ -1,0 +1,97 @@
+.card-main-link:hover{
+color: inherit;
+}
+.blog-card{
+   display: flex;
+  
+  
+   box-shadow: var(--box-shadow);
+   border-radius: 20px;
+   width: 60vw;
+   height: fit-content;
+   margin: 20px;
+     
+}
+.blog-card .blog-img{
+   
+    height: 200px;
+    width: 240px;
+}
+.blog-img img{
+    animation: none;
+    height: 100%;
+    width: 100%;
+}
+.blog-content{
+    flex: 80%;
+}
+.blog-content p{
+    display: flex;
+align-items: center;
+}
+.blog-content p{
+    padding: 5px 4px;
+}
+.blog-content p img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation: none;
+    margin: 5px;
+}
+.blog-content p svg{
+    padding: 3px;
+}
+.blog-content p span{
+    padding: 0px 5px;
+}
+@media(max-width:880px){
+    .blog-card{
+       display: flex;
+       flex-direction: column;
+       box-sizing: border-box;
+       margin: 10px;
+       padding: 10px;
+       position: relative;
+       width: 80vw;
+    }
+   .blog-container{
+    margin: 0;
+    padding: 0;
+   }
+ .blog-card .blog-img{
+    
+    flex: 100%;
+    align-items: center;
+    height: 150px;
+    width: 90%;
+    padding: 5px;
+ }
+ .blog-content{
+   flex: 100%;
+ }
+ .blog-card .blog-img img{
+    width: 100%;height: 100%;
+ }
+ .blog-content h3{
+    font-size: 16px;
+ }
+ .blog-content p {
+font-size: 10px;
+ }
+}
+.blog-card-ed-del-btn{
+   flex: 100%;
+   float: right;
+   margin-top: -50px;
+  
+   display: block;
+}
+.blog-card-ed-del-btn button{
+    background-color: transparent;
+    padding: 5px 10px;
+    color: crimson;
+}
+.blog-card-ed-del-btn button:hover{
+    color: red;
+}

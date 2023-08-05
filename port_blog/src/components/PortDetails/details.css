@@ -1,0 +1,18 @@
+.details{
+    width: 100%;height: 100%;
+    padding: 40px 0px;
+}
+.details-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.details-img{
+    width: 100%;
+    height: 100%;
+}
+.details-img img{
+    width: 100%;height: 100%;
+}

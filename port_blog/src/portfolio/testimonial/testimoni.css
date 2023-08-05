@@ -1,0 +1,46 @@
+.testimonial{
+    background-color: var(--main-bg);
+    color: var(--txt-color);
+    padding: 110px 0px;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+   width: 400px;
+   height: 400px;
+   padding: 20px;
+   box-shadow: var(--box-shadow);
+   color: var(--txt-color);
+}
+.swiper-slide .img {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  
+}
+.swiper-slide p{
+    color: var(--txt-color);
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1.4;
+    font-size: 13px;
+   
+}
+@media(max-width:767px){
+    .swiper-slide{
+        width: 98%;
+        height: 240px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,14 @@
+export const CREATE_CATEGORY = "CREATE_CATEGORY";
+
+export const UPDATE_CATEGORY = "UPDATE_CATEGORY";
+
+
+export const GET_CATEGORIES = "GET_CATEGORIES";
+
+
+export const DELETE_CATEGORY = "DELETE_CATEGORY";
+
+
+export const ALERT = "ALERT";
+
+export const CATEGORY_CLEAR_ERRORS = "CATEGORY_CLEAR_ERRORS";

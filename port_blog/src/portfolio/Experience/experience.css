@@ -1,0 +1,32 @@
+.experience-card{
+    background-color: var(--main-color);
+    color: var(--main-bg);
+}
+.experience{
+    padding-top: 100px;
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    
+}
+.experience-1{
+
+    background-color: var(--main-bg);
+    color: var(--main-color);
+   
+}
+.experience-1 h2{
+    font-size: 50px;
+    text-align: center;
+}
+.experience-1 p{
+  
+    text-align: center;
+}
+div.vertical-timeline::before{
+    
+    background-color:var(--main-color);
+}
+.vertical-timeline-element-content{
+background-color: var(--main-color);
+color: var(--main-bg);
+}

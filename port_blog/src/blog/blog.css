@@ -1,0 +1,25 @@
+.blog{
+  display: flex;
+  
+  flex-direction: row;
+ 
+}
+
+.blog-container .blog-main{
+   
+   margin:0px 250px 0px 0px;
+  
+   display: flex;
+   justify-content: center;align-items: center;
+ 
+}
+@media(max-width:768px){
+ .blog{
+  display: flex;
+  flex-direction: column;
+ }
+.blog-container .blog-main{
+   margin:0px 0px 10px 50px;
+   
+}
+}

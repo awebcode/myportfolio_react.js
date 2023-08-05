@@ -1,0 +1,95 @@
+.offer {
+  padding: 100px 0px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-bg);
+  position: relative;
+}
+.offer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.offer-content{
+    flex: 30%;
+    background-color: var(--main-bg);
+    color: var(--main-bg);
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+     display: flex;
+    justify-content: center;align-items: start;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+
+}
+.offer-content h1{
+  font-size: 25px;
+   
+}
+.offer-content a{
+    font-size: 15px;
+    color: rgb(86, 86, 87);
+    cursor: pointer;
+}
+.offer-content a span svg{
+   padding-top: 10px;
+}
+.modal-prot{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    z-index: 100;
+    padding: 40px;
+    margin: 20px;
+}
+.modal-prot .cross{
+   
+   
+   text-align: end;
+   margin-top: -30px;
+   margin-right: -20px;
+   cursor: pointer;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-content span{
+color: var(--main-color);
+}
+@media(max-width:767px){
+    .modal-prot{
+        position: relative;
+        left: 0;
+       padding: 8px;
+       top: -300px;
+       
+    }
+    .modal-prot .cross{
+   
+   
+   text-align: end;
+   margin-top: 0px;
+   margin-right: 0px;
+   cursor: pointer;
+}
+    .modal-title h1{
+        font-size: 22px;
+    }
+    .modal-title p{
+        font-size: 13px;
+    }
+    .modal-content p{
+        font-size: 12px;
+    }
+}

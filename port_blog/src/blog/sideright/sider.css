@@ -1,0 +1,48 @@
+.side-r {
+  position: relative;
+  right: 0;
+  margin: 50px 50px 50px -240px;
+ 
+}
+.category {
+}
+.tag {
+}
+.social {
+  display: flex;
+}
+.social li{
+    font-size: 18px;
+    margin: 4px 3px;
+}
+.popular li a{
+    display: flex;
+   justify-content: end;
+   align-items: center;
+   cursor: pointer;
+  
+   
+}
+.popular li a img{
+    width: 50px;
+    animation: none;
+    height: 50px;
+    margin: 5px;
+}
+@media(max-width:768px){
+    .side-r{
+        position: absolute;
+        right: 0;
+    }
+.side-r{
+   
+  display: none;
+   
+}
+.popular li a img{
+    width: 50px;
+    animation: none;
+    height: 50px;
+    margin: 5px;
+}
+}

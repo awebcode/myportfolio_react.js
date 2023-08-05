@@ -1,0 +1,30 @@
+.blog {
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-bg);
+  color: var(--txt-color);
+}
+.blog-main{
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-wrap: wrap;
+}
+.blog-img{
+    flex: 20%;
+    height: 400px;
+    width: 100%;
+    margin:5px 15px;
+}
+.blog-img img{
+    width: 100%;height: 100%;
+}
+@media(max-width:1068px){
+.blog-img{
+    flex: 50%;
+}
+}
+@media(max-width:767px){
+.blog-img{
+    flex: 100%;
+}
+}

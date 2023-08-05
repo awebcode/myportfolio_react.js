@@ -1,0 +1,16 @@
+.other-blog{
+    padding: 50px 0px;
+}
+.other-blog-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-blog-profile{
+    flex: 10%;
+}
+.other-blog-profile img{
+    height: 100px;width: 100px;
+}
